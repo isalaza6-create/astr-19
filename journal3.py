@@ -15,6 +15,11 @@ def main():
 	print(x)
 
 	print(fn(x))
+	
+	
+	if fn(x) > 27: 
+		print("YAY!")
+
 
 if __name__ == "__main__":
 	main()
